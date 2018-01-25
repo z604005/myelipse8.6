@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN" 
+"http://jakarta.apache.org/struts/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+	<form-beans>
+
+		<form-bean name="COLLECTIONF" type="org.apache.struts.action.DynaActionForm">
+			<form-property name="collectionid" type="java.lang.String" />
+			<form-property name="collectionheads" type="java.lang.String" />
+			<form-property name="collectionpropertys" type="java.lang.String" />
+		</form-bean>
+
+		<form-bean name="SC001F" type="com.spon.utils.sc.forms.SC001F" />
+		<form-bean name="SC002F" type="com.spon.utils.sc.forms.SC002F" />
+		<form-bean name="SC004F" type="com.spon.utils.sc.forms.SC004F" />
+		<form-bean name="SC003F" type="com.spon.utils.sc.forms.SC003F" />
+		<form-bean name="SC005F" type="com.spon.utils.sc.forms.SC005F" />
+		<form-bean name="SC006F" type="com.spon.utils.sc.forms.SC006F" />
+		<form-bean name="SC007F" type="com.spon.utils.sc.forms.SC007F" />
+		<form-bean name="SC901F" type="com.spon.utils.sc.forms.SC901F" />
+		<form-bean name="SC010F" type="com.spon.utils.sc.forms.SC010F" />
+		<form-bean name="LoginForm" type="com.spon.utils.sc.forms.LoginForm" />
+		<form-bean name="RP001F" type="com.spon.utils.sc.forms.RP001F" />
+		<form-bean name="FU001F" type="com.spon.utils.sc.forms.FU001F" />
+		<form-bean name="BA_FILECONTENTF" type="com.spon.utils.struts.form.BA_FILECONTENTF" />
+		<form-bean name="BA_REPORTF" type="com.spon.utils.struts.form.BA_REPORTF" />
+		<form-bean name="EMS_VIEWDATAF" type="com.spon.utils.struts.form.EMS_VIEWDATAF" />
+		<form-bean name="BA_EMSForm" type="com.spon.utils.struts.form.BA_EMSForm" />
+		<form-bean name="DF002F" type="com.spon.utils.sc.forms.DF002F" />
+		<form-bean name="EMS_OrgTree_ConfigM1F" type="com.spon.utils.orgtree.forms.EMS_OrgTree_ConfigM1F" />
+
+	</form-beans>
+
+	<global-exceptions />
+		<global-forwards>
+			<forward name="getout" path="/login.do?reqCode=loginScreen" />
+			<forward name="getmobileout" path="/mobile/esup_mobile/esup_mobile_login.jsp" />
+		</global-forwards>
+		
+		<action-mappings type="org.apache.struts.action.ActionMapping">
+		<action path="/sort" type="fr.improve.struts.taglib.layout.sort.SortAction" scope="request" validate="false" />
+		<action path="/page" type="fr.improve.struts.taglib.layout.sort.PageAction" scope="request" validate="false" />
+		
+		<action attribute="BA_REPORTF" name="BA_REPORTF" parameter="reqCode" path="/BA_PRICE" 
+				scope="request" type="com.spon.utils.util.BA_PRICE" validate="false">
+				<forward name="success" path="/templates/BA_PRICE.jsp" />
+		</action>
+		
+		<action attribute="BA_EMSForm" name="BA_EMSForm" parameter="reqCode" path="/EMS" 
+				scope="request" type="com.spon.utils.util.BA_EMS" validate="false">
+			<forward name="success"  path="/templates/BA_EMS.jsp" />
+		</action>
+		
+		<action attribute="SC001F" name="SC001F" parameter="reqCode" path="/SC001" 
+				scope="request" type="com.spon.utils.sc.actions.SC001A" validate="false">
+				<forward name="showedit" path="/SC/SC001M1.jsp" />
+				<forward name="success" path="/SC/SC001M0.jsp" />
+		</action>
+		
+		<action attribute="SC002F" name="SC002F" parameter="reqCode" path="/SC002" 
+				scope="request" type="com.spon.utils.sc.actions.SC002A" validate="false">
+				<forward name="success" path="/SC/SC002M0.jsp" />
+				<forward name="showedit" path="/SC/SC002M1.jsp" />
+		</action>
+		
+		<action attribute="SC004F" input="/SC/SC004M0.jsp" name="SC004F" parameter="reqCode" path="/SC004" 
+				scope="request" 	type="com.spon.utils.sc.actions.SC004A" validate="false">
+				<forward name="showedit" path="/SC/SC004M1.jsp" />
+				<forward name="success" path="/SC/SC004M0.jsp" />
+		</action>
+		
+		<action parameter="reqCode" path="/MENULIST" scope="request" type="com.spon.utils.util.BA_MENULISTA" />
+		
+		<action attribute="SC003F" name="SC003F" parameter="reqCode" path="/SC003" 
+				scope="request" type="com.spon.utils.sc.actions.SC003A" validate="false">
+				<forward name="showedit" path="/SC/SC003M1.jsp" />
+				<forward name="success" path="/SC/SC003M0.jsp" />
+		</action>
+		
+		<action attribute="SC003F" name="SC003F" parameter="reqCode" path="/SC003B" 
+				scope="request" type="com.spon.utils.sc.actions.SC003AB" validate="false">
+				<forward name="success" path="/SC/SC003MB.jsp" />
+		</action>
+		
+<!--		<action attribute="BA_REPORTF" name="BA_REPORTF" parameter="reqCode" path="/ChangePassword" -->
+<!--				scope="request" type="com.spon.utils.sc.actions.ChangePassAction" validate="false">-->
+<!--				<forward name="changepassword" path="/SFM/FM01/FM010700M0.jsp" />-->
+<!--		</action>-->
+		
+		<action attribute="BA_REPORTF" name="BA_REPORTF" parameter="reqCode" path="/ChangePassword" 
+				scope="request" type="com.spon.utils.sc.actions.ChangePassAction" validate="false">
+				<forward name="changepassword" path="/SC/ChangePassword.jsp" />
+		</action>
+		
+		<action attribute="SC005F" name="SC005F" parameter="reqCode" path="/SC005" 
+				scope="request" type="com.spon.utils.sc.actions.SC005A" validate="false">
+				<forward name="success" path="/SC/SC005M0.jsp" />
+		</action>
+		
+		<action attribute="SC006F" input="/SC/SC006M0.jsp" name="SC006F" parameter="reqCode" path="/SC006" 
+				scope="request" type="com.spon.utils.sc.actions.SC006A" validate="false">
+				<forward name="showedit" path="/SC/SC006M1.jsp" />
+				<forward name="success" path="/SC/SC006M0.jsp" />
+		</action>
+		
+		<action attribute="SC007F" name="SC007F" parameter="reqCode" path="/SC007" 
+				scope="request" type="com.spon.utils.sc.actions.SC007A" validate="false">
+				<forward name="showedit" path="/SC/SC007M1.jsp" />
+				<forward name="success" path="/SC/SC007M0.jsp" />
+		</action>
+
+		<action attribute="SC901F" name="SC901F" parameter="reqCode" path="/SC901" 
+				scope="request" type="com.spon.utils.sc.actions.SC901A" validate="false">
+				<forward name="success" path="/SC/SC901M0.jsp" />
+		</action>
+		
+		<action attribute="SC010F" name="SC010F" parameter="reqCode" path="/SC010" 
+				scope="request" type="com.spon.utils.sc.actions.SC010A" validate="false">
+				<forward name="success" path="/SC/SC010M0.jsp" />
+		</action>
+		<action attribute="BA_REPORTF" name="BA_REPORTF" parameter="reqCode" path="/SC011" 
+				scope="request" type="com.spon.utils.sc.actions.SC011A" validate="false">
+				<forward name="success" path="/SC/SC011M0.jsp" />
+		</action>
+		
+		<action attribute="LoginForm" name="LoginForm" parameter="reqCode" path="/login" 
+				scope="request" type="com.spon.utils.sc.actions.LoginAction"> 
+				<forward name="success"    path="/login.jsp" />
+				<forward name="pass"       path="/login_pass.jsp"         redirect="true" />
+				<forward name="pass_chang" path="/login_pass.jsp?chang=1" redirect="true"  />
+		</action>
+		
+		<action attribute="LoginForm" name="LoginForm" parameter="reqCode" path="/mobile_login" 
+				scope="request" type="com.spon.utils.sc.mobile.MobileLoginAction"> 
+				<forward name="success"    path="/mobile/esup_mobile/esup_mobile_login.jsp" />
+				<forward name="success_pass"    path="/mobile/esup_mobile/esup_mobile_function.jsp" />
+		</action>
+		
+		<action attribute="LoginForm" name="LoginForm" parameter="reqCode" path="/mobile_function" 
+				scope="request" type="com.spon.utils.sc.mobile.MobileUserFunction"> 
+				<forward name="success"    path="/mobile/esup_mobile/esup_mobile_function.jsp" />
+		</action>
+		
+<!--		<action parameter="reqCode" path="/index" type="com.spon.struts.IndexAction">-->
+<!--				<forward name="success"  path="/howto.jsp" />-->
+<!--				<forward name="fail"     path="/login.do?reqCode=loginScreen" />-->
+<!--				<forward name="shutdown" path="/shutdown.jsp" />-->
+<!--		</action>-->
+		<action parameter="reqCode" path="/index_warehouse" type="com.spon.struts.IndexAction">
+				<forward name="success"  path="/howto.jsp" />
+				<forward name="fail"     path="/login.do?reqCode=loginScreen" />
+				<forward name="shutdown" path="/shutdown.jsp" />
+		</action>
+		
+		<action path="/getSuggestions" type="com.spon.struts.SuggestAction" parameter="reqCode">
+		</action>
+		
+		<action attribute="COLLECTIONF" name="COLLECTIONF" path="/collection_print" 
+				type="com.spon.utils.util.BA_Collection_Print" parameter="reqCode">
+		</action>
+		
+		<action parameter="reqCode" path="/DATAGRID_LOV" 
+				scope="request" type="com.spon.utils.util.BA_DATAGRID_LOV" validate="false">
+		</action>
+		
+		<action attribute="BA_REPORTF" name="BA_REPORTF" parameter="reqCode" path="/LOGIN_LOG" 
+				scope="request"
+				type="com.spon.utils.sc.actions.LOGIN_LOG" validate="false">
+				<forward name="success" path="/SC/LOGIN_LOG.jsp" />
+		</action>
+		
+		<action attribute="BA_REPORTF" name="BA_REPORTF" parameter="reqCode" path="/FLOW_TEST_ACTION" 
+				scope="request"
+				type="com.spon.flow.test.SPON_Flow_Test_Action" validate="false">
+				<forward name="success" path="/flow/test/FLOW_TEST_ACTION.jsp" />
+		</action>
+		
+		<action attribute="LoginForm" name="LoginForm" parameter="reqCode" path="/Locale" 
+				scope="request"
+				type="com.spon.utils.util.LanguageSelect" validate="false">
+				<forward name="success" path="/login.jsp" />
+		</action>
+		
+		<action attribute="EMS_VIEWDATAF" name="EMS_VIEWDATAF" parameter="reqCode" path="/EMS_CategoryM0" 
+				scope="request" type="com.spon.utils.category.EMS_CategoryM0A" validate="false">
+			<forward name="success"  path="/category/EMS_CategoryM0.jsp" />
+			<forward name="redirectADD" path="/EMS_CategoryM1.do?reqCode=init" />
+		</action>
+		<action attribute="EMS_VIEWDATAF" name="EMS_VIEWDATAF" parameter="reqCode" path="/EMS_CategoryM1" 
+				scope="request" type="com.spon.utils.category.EMS_CategoryM1A" validate="false">
+			<forward name="success"  path="/category/EMS_CategoryM1.jsp" />
+			<forward name="redirect" path="/EMS_CategoryM0.do?reqCode=init" />
+		</action>
+		
+		<action attribute="EMS_OrgTree_ConfigM1F" name="EMS_OrgTree_ConfigM1F" parameter="reqCode" path="/EMS_OrgTree_ConfigM1" 
+				scope="request" type="com.spon.utils.orgtree.actions.EMS_OrgTree_ConfigM1A" validate="false">
+			<forward name="success" path="/ems_orgtree/EMS_OrgTree_ConfigM1.jsp" />
+		</action>
+		
+		<action attribute="EMS_VIEWDATAF" name="EMS_VIEWDATAF" parameter="reqCode" path="/EMS_SIGNERM0" 
+		        scope="request" type="com.spon.ems.utils.ems_signer.EMS_SIGNERM0A" validate="false">
+			<forward name="success"  path="/ems_signer/EMS_SIGNERM0.jsp" />
+		</action>
+		
+	</action-mappings>
+	
+	<message-resources parameter="EMSResources" />
+	
+</struts-config>
+

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/popo/!svn/ver/1/spon-struts-abs-framework/com/spon/mvc/models
+END
+BaseSystem.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/popo/!svn/ver/1/spon-struts-abs-framework/com/spon/mvc/models/BaseSystem.java
+END
+BaseFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/popo/!svn/ver/1/spon-struts-abs-framework/com/spon/mvc/models/BaseFunction.java
+END
+EditFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/popo/!svn/ver/1/spon-struts-abs-framework/com/spon/mvc/models/EditFunction.java
+END
+QueryFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/popo/!svn/ver/1/spon-struts-abs-framework/com/spon/mvc/models/QueryFunction.java
+END
+EditDetailFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/popo/!svn/ver/1/spon-struts-abs-framework/com/spon/mvc/models/EditDetailFunction.java
+END

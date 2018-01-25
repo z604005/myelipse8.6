@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/popo/!svn/ver/1/src/com/spon/ems/vacation/tools
+END
+EMS_FixAttendance.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/popo/!svn/ver/1/src/com/spon/ems/vacation/tools/EMS_FixAttendance.java
+END
+EMS_AbnormalAttendanceHandle.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/popo/!svn/ver/1/src/com/spon/ems/vacation/tools/EMS_AbnormalAttendanceHandle.java
+END
+EMS_CaculateVacationByCal.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/popo/!svn/ver/1/src/com/spon/ems/vacation/tools/EMS_CaculateVacationByCal.java
+END
+EMS_CheckVacation.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/popo/!svn/ver/1/src/com/spon/ems/vacation/tools/EMS_CheckVacation.java
+END
+EMS_setVacationUpdateSQL.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/popo/!svn/ver/1/src/com/spon/ems/vacation/tools/EMS_setVacationUpdateSQL.java
+END
+EMS_AttendanceAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/popo/!svn/ver/1/src/com/spon/ems/vacation/tools/EMS_AttendanceAction.java
+END
+EMS_AttendanceForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/popo/!svn/ver/1/src/com/spon/ems/vacation/tools/EMS_AttendanceForm.java
+END

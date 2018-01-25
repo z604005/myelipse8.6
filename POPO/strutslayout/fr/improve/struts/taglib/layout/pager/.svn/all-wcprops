@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/pager
+END
+StatusTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/pager/StatusTag.java
+END
+PagerContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/pager/PagerContainer.java
+END
+PagerStatusEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/pager/PagerStatusEvent.java
+END
+PagerStatusListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/pager/PagerStatusListener.java
+END
+PagerTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/pager/PagerTag.java
+END

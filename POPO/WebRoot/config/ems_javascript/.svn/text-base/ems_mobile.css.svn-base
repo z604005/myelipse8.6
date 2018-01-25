@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+@viewport{
+	min-height: 480px;
+	min-width: 320px;
+	max-height: 800px;
+	max-width: 320px;
+	user-zoom: fixed;	
+}
+
+/*
+.spon-footer-bar{
+	background-image: url("../ems_images/spon_footer_bar_320.png");
+	background-repeat: no-repeat;   
+	background-position: center center;
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	height: 50px;
+}
+*/
+
+/*
+.ui-icon-information{
+	background-image: url("../ems_images/icon_information.png");
+}
+*/
+
+.ui-ems-image-button { height: 120px; }
+.icon-label { color: #000; display: block; font-size: 12px; }
+
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none; 
+}

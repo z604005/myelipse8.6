@@ -1,0 +1,293 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout
+END
+SubmitTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/SubmitTag.java
+END
+MenuTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/MenuTag.java
+END
+HtmlTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/HtmlTag.java
+END
+LabelledTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/LabelledTag.java
+END
+MenuItemTag2.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/MenuItemTag2.java
+END
+NotModeTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/NotModeTag.java
+END
+ScrollBoxTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/ScrollBoxTag.java
+END
+BaseHandlerTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/BaseHandlerTag.java
+END
+JavascriptImageTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/JavascriptImageTag.java
+END
+LayoutTagSupport.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/LayoutTagSupport.java
+END
+ImgTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/ImgTag.java
+END
+LayoutTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/LayoutTag.java
+END
+BaseFieldTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/BaseFieldTag.java
+END
+DynMenuTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/DynMenuTag.java
+END
+OrderedListTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/OrderedListTag.java
+END
+ResetTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/ResetTag.java
+END
+DivTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/DivTag.java
+END
+FieldTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/FieldTag.java
+END
+GridLayoutTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/GridLayoutTag.java
+END
+MenuItemTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/MenuItemTag.java
+END
+CancelTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/CancelTag.java
+END
+MenuTag2.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/MenuTag2.java
+END
+TableTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/TableTag.java
+END
+BodyLayoutTagSupport.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/BodyLayoutTagSupport.java
+END
+FormActions.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/FormActions.java
+END
+ListItemTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/ListItemTag.java
+END
+WriteTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/WriteTag.java
+END
+LinkTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/LinkTag.java
+END
+PolicyTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/PolicyTag.java
+END
+MenuActionTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/MenuActionTag.java
+END
+PopupTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/PopupTag.java
+END
+FormTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/FormTag.java
+END
+Version.properties
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/Version.properties
+END
+SkinTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/SkinTag.java
+END
+RowTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/RowTag.java
+END
+ButtonTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/ButtonTag.java
+END
+ActionTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/ActionTag.java
+END
+CellTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/CellTag.java
+END
+PanelTag2.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/PanelTag2.java
+END
+ImageTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/ImageTag.java
+END
+MessageTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/MessageTag.java
+END
+ModeTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/ModeTag.java
+END
+ResourceTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/ResourceTag.java
+END
+DefaultDynMenuConfig.properties
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/DefaultDynMenuConfig.properties
+END
+ColumnTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/ColumnTag.java
+END
+EmptyTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/EmptyTag.java
+END
+PanelTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/PanelTag.java
+END
+DynMenuTag2.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/DynMenuTag2.java
+END

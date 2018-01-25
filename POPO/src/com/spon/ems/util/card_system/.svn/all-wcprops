@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/popo/!svn/ver/1/src/com/spon/ems/util/card_system
+END
+EMS_CardDataBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/popo/!svn/ver/1/src/com/spon/ems/util/card_system/EMS_CardDataBase.java
+END
+EMS_CardSystem.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/popo/!svn/ver/1/src/com/spon/ems/util/card_system/EMS_CardSystem.java
+END
+EMS_CardCSVFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/popo/!svn/ver/1/src/com/spon/ems/util/card_system/EMS_CardCSVFile.java
+END
+EMS_CardControl.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/popo/!svn/ver/1/src/com/spon/ems/util/card_system/EMS_CardControl.java
+END

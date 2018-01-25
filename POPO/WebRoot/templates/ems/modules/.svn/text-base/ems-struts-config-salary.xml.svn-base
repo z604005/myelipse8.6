@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_3.dtd">
+<struts-config>
+	<form-beans>
+
+		<form-bean name="EHF030101M0F" type="com.spon.ems.salary.forms.EHF030101M0F" />
+		<form-bean name="EHF030102M0F" type="com.spon.ems.salary.forms.EHF030102M0F" />
+		<form-bean name="EHF030102M1F" type="com.spon.ems.salary.forms.EHF030102M1F" />
+		<form-bean name="EHF030103M1F" type="com.spon.ems.salary.forms.EHF030103M1F" />
+		<form-bean name="EHF030104M1F" type="com.spon.ems.salary.forms.EHF030104M1F" />
+		<form-bean name="EHF030105M0F" type="com.spon.ems.salary.forms.EHF030105M0F" />
+		<form-bean name="EHF030107M0F" type="com.spon.ems.salary.forms.EHF030107M0F" />
+		
+		<form-bean name="EHF030200M0F" type="com.spon.ems.salary.forms.EHF030200M0F" />
+		<form-bean name="EHF030300M1F" type="com.spon.ems.salary.forms.EHF030300M1F" />
+		<form-bean name="EHF030500M0F" type="com.spon.ems.salary.forms.EHF030500M0F" />
+		<form-bean name="EHF030600M0F" type="com.spon.ems.salary.forms.EHF030600M0F" />
+		<form-bean name="EHF030600M1F" type="com.spon.ems.salary.forms.EHF030600M1F" />
+		<form-bean name="EHF030601M0F" type="com.spon.ems.salary.forms.EHF030601M0F" />
+		<form-bean name="EHF030602M0F" type="com.spon.ems.salary.forms.EHF030602M0F" />
+		<form-bean name="EHF030603M0F" type="com.spon.ems.salary.forms.EHF030603M0F" />
+		<form-bean name="EHF030604M0F" type="com.spon.ems.salary.forms.EHF030604M0F" />
+		<form-bean name="EHF030901M0F" type="com.spon.ems.salary.forms.EHF030901M0F" />
+		<form-bean name="EHF030108M0F" type="com.spon.ems.salary.forms.EHF030108M0F" />
+		<form-bean name="SC006F" type="com.spon.ems.sc.forms.SC006F" />
+	
+	</form-beans>
+	
+	<action-mappings>
+
+		<action attribute="EHF030101M0F" name="EHF030101M0F" parameter="reqCode" path="/EHF030101M0" scope="request"
+			type="com.spon.ems.salary.actions.EHF030101M0A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030101M0.jsp" />
+		</action>
+		
+		<action attribute="EHF030102M0F" name="EHF030102M0F" parameter="reqCode" path="/EHF030102M0" scope="request"
+			type="com.spon.ems.salary.actions.EHF030102M0A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030102M0.jsp" />
+		</action>
+		
+		<action attribute="EHF030102M1F" name="EHF030102M1F" parameter="reqCode" path="/EHF030102M1" scope="request"
+			type="com.spon.ems.salary.actions.EHF030102M1A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030102M1.jsp" />
+			<forward name="redirect" path="/EHF030102M1.do?reqCode=init" />
+		</action>
+		
+		<action attribute="EHF030104M1F" name="EHF030104M1F" parameter="reqCode" path="/EHF030104M0" scope="request"
+			type="com.spon.ems.salary.actions.EHF030104M0A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030104M0.jsp" />
+			<forward name="redirectADD" path="/EHF030104M1.do?reqCode=init" />
+			<forward name="redirectEDIT" path="/EHF030104M1.do?reqCode=queryForm" />
+		</action>
+		
+		<action attribute="EHF030104M1F" name="EHF030104M1F" parameter="reqCode" path="/EHF030104M1" scope="request"
+			type="com.spon.ems.salary.actions.EHF030104M1A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030104M1.jsp" />
+			<forward name="redirect" path="/EHF030104M0.do?reqCode=init" />
+		</action>
+		
+		<action attribute="BA_REPORTF" name="BA_REPORTF" parameter="reqCode" path="/EHF030300M0" scope="request"
+			type="com.spon.ems.salary.actions.EHF030300M0A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030300M0.jsp" />
+			<forward name="redirectADD" path="/EHF030300M1.do?reqCode=init" />
+			<forward name="redirectEDIT" path="/EHF030300M1.do?reqCode=queryForm" />
+		</action>
+		
+		<action attribute="EHF030300M1F" name="EHF030300M1F" parameter="reqCode" path="/EHF030300M1" scope="request"
+			type="com.spon.ems.salary.actions.EHF030300M1A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030300M1.jsp" />
+			<forward name="redirect" path="/EHF030300M0.do?reqCode=init" />
+		</action>
+		
+		<action attribute="BA_REPORTF" name="BA_REPORTF" parameter="reqCode" path="/EHF030400M0" scope="request"
+			type="com.spon.ems.salary.actions.EHF030400M0A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030400M0.jsp" />
+		</action>
+		
+		<action attribute="EHF030901M0F" name="EHF030901M0F" parameter="reqCode" path="/EHF030901M0" scope="request"
+			type="com.spon.ems.salary.actions.EHF030901M0A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030901M0.jsp" />
+		</action>
+		
+		<action attribute="EHF030103M1F" name="EHF030103M1F" parameter="reqCode" path="/EHF030103M0" scope="request"
+			type="com.spon.ems.salary.actions.EHF030103M0A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030103M0.jsp" />
+			<forward name="redirectADD" path="/EHF030103M1.do?reqCode=init" />
+			<forward name="redirectEDIT" path="/EHF030103M1.do?reqCode=queryForm" />
+		</action>
+		
+		<action attribute="EHF030103M1F" name="EHF030103M1F" parameter="reqCode" path="/EHF030103M1" scope="request"
+			type="com.spon.ems.salary.actions.EHF030103M1A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030103M1.jsp" />
+			<forward name="redirect" path="/EHF030103M0.do?reqCode=init" />
+		</action>
+		
+		<action attribute="EHF030105M0F" name="EHF030105M0F" parameter="reqCode" path="/EHF030105M0" scope="request"
+			type="com.spon.ems.salary.actions.EHF030105M0A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030105M0.jsp" />
+			<forward name="InsertForm" path="/EHF030105M1.do?reqCode=init"/>
+			<forward name="editDataForm" path="/EHF030105M1.do?reqCode=alldata"/>
+		</action>
+		<action attribute="BA_REPORTF" name="BA_REPORTF" parameter="reqCode" path="/EHF030105M1" scope="request"
+			type="com.spon.ems.salary.actions.EHF030105M1A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030105M1.jsp" />
+			<forward name="goback" path="/EHF030105M0.do?reqCode=init"/>
+			<forward name="headdata" path="/EHF030105M1.do?reqCode=headdata"/>
+			<forward name="alldata" path="/EHF030105M1.do?reqCode=alldata"/>
+		</action>
+		
+		<action attribute="EHF030107M0F" name="EHF030107M0F" parameter="reqCode" path="/EHF030107M0" scope="request"
+				type="com.spon.ems.salary.actions.EHF030107M0A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030107M0.jsp" />
+			<forward name="redirectADD" path="/EHF030107M1.do?reqCode=init" />
+			<forward name="redirectEDIT" path="/EHF030107M1.do?reqCode=queryForm" />
+		</action>
+		
+		<action attribute="EHF030107M0F" name="EHF030107M0F" parameter="reqCode" path="/EHF030107M1" scope="request"
+				type="com.spon.ems.salary.actions.EHF030107M1A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030107M1.jsp" />
+			<forward name="redirect" path="/EHF030107M0.do?reqCode=init" />
+			<forward name="redirectDELETE" path="/EHF030107M0.do?reqCode=delForm" />
+		</action>
+		
+		<action attribute="EHF030108M0F" name="EHF030108M0F" parameter="reqCode" path="/EHF030108M0" scope="request"
+				type="com.spon.ems.salary.actions.EHF030108M0A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030108M0.jsp" />
+			<forward name="redirectADD" path="/EHF030108M1.do?reqCode=init" />
+			<forward name="redirectEDIT" path="/EHF030108M1.do?reqCode=queryForm" />
+		</action>
+		
+		<action attribute="EHF030108M0F" name="EHF030108M0F" parameter="reqCode" path="/EHF030108M1" scope="request"
+				type="com.spon.ems.salary.actions.EHF030108M1A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030108M1.jsp" />
+			<forward name="redirect" path="/EHF030108M0.do?reqCode=init" />
+			<forward name="redirectDELETE" path="/EHF030108M0.do?reqCode=delForm" />
+		</action>
+		
+		<action attribute="EHF030200M0F" name="EHF030200M0F" parameter="reqCode" path="/EHF030200M0" scope="request"
+			type="com.spon.ems.salary.actions.EHF030200M0A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030200M0.jsp" />
+			<forward name="addDataForm" path="/EHF030200M1.do?reqCode=init"/>
+			<forward name="editDataForm" path="/EHF030200M1.do?reqCode=queryForm"/>
+		</action>
+		
+		<action attribute="EHF030200M0F" name="EHF030200M0F" parameter="reqCode" path="/EHF030200M1" scope="request"
+			type="com.spon.ems.salary.actions.EHF030200M1A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030200M1.jsp" />
+			<forward name="redirect" path="/EHF030200M0.do?reqCode=init" />
+		</action>
+		
+		<action attribute="EHF030500M0F" name="EHF030500M0F" parameter="reqCode" path="/EHF030500M0" scope="request"
+			type="com.spon.ems.salary.actions.EHF030500M0A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030500M0.jsp" />
+			<forward name="redirectADD" path="/EHF030500M1.do?reqCode=init" />
+			<forward name="redirectEDIT" path="/EHF030500M1.do?reqCode=queryForm" />
+		</action>
+		
+		<action attribute="EHF030500M0F" name="EHF030500M0F" parameter="reqCode" path="/EHF030500M1" scope="request"
+			type="com.spon.ems.salary.actions.EHF030500M1A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030500M1.jsp" />
+			<forward name="redirect" path="/EHF030500M0.do?reqCode=init" />
+		</action>
+		
+		<action attribute="EHF030600M0F" name="EHF030600M0F" parameter="reqCode" path="/EHF030600M0" scope="request"
+			type="com.spon.ems.salary.actions.EHF030600M0A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030600M0.jsp" />
+			<forward name="redirectADD" path="/EHF030600M1.do?reqCode=init" />
+			<forward name="redirectEDIT" path="/EHF030600M1.do?reqCode=queryForm" />
+		</action>
+		
+		<action attribute="EHF030600M0F" name="EHF030600M0F" parameter="reqCode" path="/EHF030600M1" scope="request"
+			type="com.spon.ems.salary.actions.EHF030600M1A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030600M1.jsp" />
+			<forward name="redirect" path="/EHF030600M0.do?reqCode=init" />
+		</action>
+		
+		<action attribute="EHF030601M0F" name="EHF030601M0F" parameter="reqCode" path="/EHF030601M0" scope="request"
+			type="com.spon.ems.salary.actions.EHF030601M0A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030601M0.jsp" />
+			<forward name="redirectADD" path="/EHF030601M1.do?reqCode=init" />
+			<forward name="redirectEDIT" path="/EHF030601M1.do?reqCode=queryForm" />
+		</action>
+		
+		<action attribute="EHF030601M0F" name="EHF030601M0F" parameter="reqCode" path="/EHF030601M1" scope="request"
+			type="com.spon.ems.salary.actions.EHF030601M1A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030601M1.jsp" />
+			<forward name="redirect" path="/EHF030601M0.do?reqCode=init" />
+		</action>
+		
+		<action attribute="EHF030602M0F" name="EHF030602M0F" parameter="reqCode" path="/EHF030602M0" scope="request"
+			type="com.spon.ems.salary.actions.EHF030602M0A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030602M0.jsp" />
+			<forward name="redirectADD" path="/EHF030602M1.do?reqCode=init" />
+			<forward name="redirectEDIT" path="/EHF030602M1.do?reqCode=queryForm" />
+		</action>
+		
+		<action attribute="EHF030602M0F" name="EHF030602M0F" parameter="reqCode" path="/EHF030602M1" scope="request"
+			type="com.spon.ems.salary.actions.EHF030602M1A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030602M1.jsp" />
+			<forward name="redirect" path="/EHF030602M0.do?reqCode=init" />
+		</action>
+		
+		<action attribute="EHF030603M0F" name="EHF030603M0F" parameter="reqCode" path="/EHF030603M0" scope="request"
+			type="com.spon.ems.salary.actions.EHF030603M0A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030603M0.jsp" />
+			<forward name="redirectADD" path="/EHF030603M1.do?reqCode=init" />
+			<forward name="redirectEDIT" path="/EHF030603M1.do?reqCode=queryForm" />
+		</action>
+		
+		<action attribute="EHF030603M0F" name="EHF030603M0F" parameter="reqCode" path="/EHF030603M1" scope="request"
+			type="com.spon.ems.salary.actions.EHF030603M1A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030603M1.jsp" />
+			<forward name="redirect" path="/EHF030603M0.do?reqCode=init" />
+		</action>
+		
+		<action attribute="EHF030604M0F" name="EHF030604M0F" parameter="reqCode" path="/EHF030604M0" scope="request"
+				type="com.spon.ems.salary.actions.EHF030604M0A" validate="false">
+			<forward name="success"  	path="/ems/ehf03/EHF030604M0.jsp" />
+			<forward name="redirect"   	path="/EHF030604M0.do?reqCode=init" />
+			<forward name="redirectEDIT" path="/EHF030604M1.do?reqCode=editDataForm" />
+			<forward name="redirectADD"  path="/EHF030604M1.do?reqCode=addDataForm" />
+			<forward name="redirectM2" 		path="/EHF030604M2.do?reqCode=init" />
+		</action>
+		
+		<action attribute="EHF030604M0F" name="EHF030604M0F" parameter="reqCode" path="/EHF030604M1" scope="request"
+				type="com.spon.ems.salary.actions.EHF030604M1A" validate="false">
+			<forward name="success" 		path="/ems/ehf03/EHF030604M1.jsp" />
+			<forward name="redirect" 		path="/EHF030604M0.do?reqCode=init" />
+			<forward name="redirectM2" 		path="/EHF030604M2.do?reqCode=init" />
+			<forward name="redirectDELETE" path="/EHF030604M0.do?reqCode=delForm" />
+		</action>
+		
+		
+		<action attribute="EHF030604M0F" name="EHF030604M0F" parameter="reqCode" path="/EHF030604M2" scope="request"
+				type="com.spon.ems.salary.actions.EHF030604M2A" validate="false">
+			<forward name="success" 		path="/ems/ehf03/EHF030604M2.jsp" />
+			<forward name="redirect" 		path="/EHF030604M0.do?reqCode=init" />
+			<forward name="redirectEDIT" 	path="/EHF030604M0.do?reqCode=queryForm" />
+			<forward name="redirectADD" 	path="/EHF030604M1.do?reqCode=addDataForm" />
+		</action>
+		
+		
+		<action attribute="EHF030600M0F" name="EHF030600M0F" parameter="reqCode" path="/EHF030701M0" scope="request"
+			type="com.spon.ems.salary.actions.EHF030701M0A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030701M0.jsp" />
+		</action>
+		
+		<action attribute="EHF030600M0F" name="EHF030600M0F" parameter="reqCode" path="/EHF030701M1" scope="request"
+			type="com.spon.ems.salary.actions.EHF030702M1A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030701M1.jsp" />
+		</action>
+		
+		<action attribute="EHF030600M0F" name="EHF030600M0F" parameter="reqCode" path="/EHF030702M1" scope="request"
+			type="com.spon.ems.salary.actions.EHF030702M1A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030702M1.jsp" />
+		</action>
+		
+		<action attribute="BA_REPORTF" name="BA_REPORTF" parameter="reqCode" path="/EHF030702M0" scope="request"
+			type="com.spon.ems.salary.actions.EHF030702M0A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030702M0.jsp" />
+		</action>
+
+		<action attribute="EHF030604M0F" name="EHF030604M0F" parameter="reqCode" path="/EHF030605M0" scope="request"
+			type="com.spon.ems.salary.actions.EHF030605M0A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030605M0.jsp" />
+		</action>
+
+		<action attribute="EMS_VIEWDATAF" name="EMS_VIEWDATAF" parameter="reqCode" path="/EHF030704M0" 
+			scope="request" type="com.spon.ems.salary.actions.EHF030704M0A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030704M0.jsp" />
+		</action>
+		
+		<action attribute="EMS_VIEWDATAF" name="EMS_VIEWDATAF" parameter="reqCode" path="/EHF030705M0" 
+			scope="request" type="com.spon.ems.salary.actions.EHF030705M0A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030705M0.jsp" />
+		</action>
+		
+		<action attribute="BA_REPORTF" name="BA_REPORTF" parameter="reqCode" path="/EHF030703M0" scope="request"
+			type="com.spon.ems.salary.actions.EHF030703M0A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030703M0.jsp" />
+		</action>
+		
+		<action attribute="BA_REPORTF" name="BA_REPORTF" parameter="reqCode" path="/EHF030106M0" scope="request"
+			type="com.spon.ems.salary.actions.EHF030106M0A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030106M0.jsp" />
+		</action>
+		
+		<action attribute="BA_REPORTF" name="BA_REPORTF" parameter="reqCode" path="/EHF030801M0" scope="request"
+			type="com.spon.ems.salary.actions.EHF030801M0A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030801M0.jsp" />
+			<forward name="insertForm" path="/EHF030801M1.do?reqCode=init"/>
+			<forward name="DetailForm" path="/EHF030801M1.do?reqCode=queryForm"/>
+		</action>
+		<action attribute="BA_REPORTF" name="BA_REPORTF" parameter="reqCode" path="/EHF030801M1" scope="request"
+			type="com.spon.ems.salary.actions.EHF030801M1A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030801M1.jsp" />
+			<forward name="goback" path="/EHF030801M0.do?reqCode=init" />
+		</action>
+		
+		<action attribute="BA_REPORTF" name="BA_REPORTF" parameter="reqCode" path="/EHF030802M0" scope="request"
+			type="com.spon.ems.salary.actions.EHF030802M0A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030802M0.jsp" />
+		</action>
+		
+		<action attribute="BA_REPORTF" name="BA_REPORTF" parameter="reqCode" path="/EHF030902M0" scope="request"
+			type="com.spon.ems.salary.actions.EHF030902M0A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030902M0.jsp" />
+		</action>
+		
+		<action attribute="BA_REPORTF" name="BA_REPORTF" parameter="reqCode" path="/EHF040101M0" scope="request"
+			type="com.spon.ems.workhours.actions.EHF040101M0A" validate="false">
+			<forward name="success" path="/ems/ehf04/EHF040101M0.jsp" />
+			<forward name="insertForm" path="/EHF040101M1.do?reqCode=init" />
+			<forward name="UpdateForm" path="/EHF040101M1.do?reqCode=queryForm" />
+		</action>
+		<action attribute="BA_REPORTF" name="BA_REPORTF" parameter="reqCode" path="/EHF040101M1" scope="request"
+			type="com.spon.ems.workhours.actions.EHF040101M1A" validate="false">
+			<forward name="success" path="/ems/ehf04/EHF040101M1.jsp" />
+			<forward name="goback" path="/EHF040101M0.do?reqCode=init" />
+		</action>
+
+		<action attribute="SC006F" name="SC006F" parameter="reqCode" path="/EHF031000M0" scope="request" 
+			type="com.spon.ems.salary.actions.EHF031000M0A"	validate="false">
+			<forward name="success" path="/ems/ehf03/EHF031000M0.jsp" />
+			<forward name="showedit" path="/ems/ehf03/EHF031000M1.jsp" />
+		</action>
+		
+		<action attribute="EHF030600M0F" name="EHF030600M0F" parameter="reqCode" path="/EHF030702M1" scope="request"
+			type="com.spon.ems.salary.actions.EHF030702M1A" validate="false">
+			<forward name="success" path="/ems/ehf03/EHF030702M1.jsp" />
+		</action>
+		
+ 	</action-mappings>
+	
+	
+	<controller />
+	
+	
+	<message-resources key="EmsSaMsg" parameter="EMSSAResources" />
+	
+	
+</struts-config>

@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/popo/!svn/ver/28/spon-utils/com/spon/utils/util
+END
+FileOutput.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/FileOutput.java
+END
+BA_XML.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/BA_XML.java
+END
+BA_LOV.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/BA_LOV.java
+END
+BA_EXCEL.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/popo/!svn/ver/28/spon-utils/com/spon/utils/util/BA_EXCEL.java
+END
+EMS_EXCEL.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/EMS_EXCEL.java
+END
+BA_Collection_Print.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/BA_Collection_Print.java
+END
+BA_DATAGRID_ITEM_LOV_TAG.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/BA_DATAGRID_ITEM_LOV_TAG.java
+END
+VirResultSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/VirResultSet.java
+END
+EMS_GetEmsFlowInf.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/EMS_GetEmsFlowInf.java
+END
+CSVReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/CSVReader.java
+END
+BA_LOGGER.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/BA_LOGGER.java
+END
+BA_DATAGRID.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/BA_DATAGRID.java
+END
+BA_EMS_Tag.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/BA_EMS_Tag.java
+END
+LanguageSelect.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/LanguageSelect.java
+END
+BA_EXCEL_forsalary.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/BA_EXCEL_forsalary.java
+END
+BA_ENAME.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/BA_ENAME.java
+END
+CSVWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/CSVWriter.java
+END
+HR_TOOLS.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/popo/!svn/ver/3/spon-utils/com/spon/utils/util/HR_TOOLS.java
+END
+BA_EXCEL_For_Individual_salary.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/BA_EXCEL_For_Individual_salary.java
+END
+BA_Vaildate.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/BA_Vaildate.java
+END
+BA_DATAGRID_ITEM_TEXT_TAG.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/BA_DATAGRID_ITEM_TEXT_TAG.java
+END
+BA_EXCEL_HONGCHI.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/BA_EXCEL_HONGCHI.java
+END
+BA_DATAGRID_LOV.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/BA_DATAGRID_LOV.java
+END
+BA_TOOLS.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/popo/!svn/ver/3/spon-utils/com/spon/utils/util/BA_TOOLS.java
+END
+BA_MENULISTA.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/BA_MENULISTA.java
+END
+BA_Collection_Print_TAG.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/BA_Collection_Print_TAG.java
+END
+EMS_ACCESS.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/popo/!svn/ver/11/spon-utils/com/spon/utils/util/EMS_ACCESS.java
+END
+VirTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/VirTable.java
+END
+BA_GETCODENAME_TAG.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/BA_GETCODENAME_TAG.java
+END
+EMS_FLOW.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/EMS_FLOW.java
+END
+BA_DATAGRID_TAG.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/BA_DATAGRID_TAG.java
+END
+BA_REPORT.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/BA_REPORT.java
+END
+BA_REPORT_TYPE.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/BA_REPORT_TYPE.java
+END
+QSortAlgorithm.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/QSortAlgorithm.java
+END
+BA_EMS.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/BA_EMS.java
+END
+BA_DATAGRID_ITEM_SELECT_TAG.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/BA_DATAGRID_ITEM_SELECT_TAG.java
+END
+SponMark.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/SponMark.java
+END
+BA_EXCEL_Calendar.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/popo/!svn/ver/1/spon-utils/com/spon/utils/util/BA_EXCEL_Calendar.java
+END

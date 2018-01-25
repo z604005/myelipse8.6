@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_3.dtd">
+<struts-config>
+	<form-beans>
+		
+		<form-bean name="EHF010100M0F" type="com.spon.ems.hr.forms.EHF010100M0F" />
+		<form-bean name="EHF010101M0F" type="com.spon.ems.hr.forms.EHF010101M0F" />
+		<form-bean name="EHF010106M0F" type="com.spon.ems.hr.forms.EHF010106M0F" />
+		<form-bean name="EHF010107M0F" type="com.spon.ems.hr.forms.EHF010107M0F" />
+		<form-bean name="EHF010108M0F" type="com.spon.ems.hr.forms.EHF010108M0F" />
+		<form-bean name="EHF010109M0F" type="com.spon.ems.hr.forms.EHF010109M0F" />
+		<form-bean name="EHF010110M0F" type="com.spon.ems.hr.forms.EHF010110M0F" />
+		<form-bean name="EHF010111M0F" type="com.spon.ems.hr.forms.EHF010111M0F" />
+		<form-bean name="EHF010112M0F" type="com.spon.ems.hr.forms.EHF010112M0F" />
+		<form-bean name="EHF010113M0F" type="com.spon.ems.hr.forms.EHF010113M0F" />
+		<form-bean name="EHF010114M0F" type="com.spon.ems.hr.forms.EHF010114M0F" />		
+		<form-bean name="EHF010301M0F" type="com.spon.ems.hr.forms.EHF010301M0F" />	
+		
+	</form-beans>
+	
+	<action-mappings>
+	
+<!--		<action attribute="EHF010100M0F" name="EHF010100M0F" parameter="reqCode" path="/EHF010100M0" scope="request"-->
+<!--			type="com.spon.ems.hr.actions.EHF010100M0A" validate="false">-->
+<!--			<forward name="success" path="/ems/ehf01/EHF010100M0.jsp" />-->
+<!--		</action>-->
+		
+		<action attribute="EHF010100M0F" name="EHF010100M0F" parameter="reqCode" path="/EHF010100M0" scope="request"
+			type="com.spon.ems.hr.actions.EHF010100M0A" validate="false">
+			<forward name="success" path="/ems/ehf01/EHF010100M0.jsp" />
+			<forward name="redirectADD" path="/EHF010100M1.do?reqCode=init" />
+			<forward name="redirectEDIT" path="/EHF010100M1.do?reqCode=queryForm" />
+			<forward name="redirectIMP" path="/ems/ehf01/EHF010100M4.jsp" />
+			<forward name="redirectEMP" path="/ems/ehf01/EHF010100M5.jsp" />
+		</action>
+		<action attribute="EHF010100M0F" name="EHF010100M0F" parameter="reqCode" path="/EHF010100M1" scope="request"
+			type="com.spon.ems.hr.actions.EHF010100M1A" validate="false">
+			<forward name="success" path="/ems/ehf01/EHF010100M1.jsp" />
+			<forward name="redirect" path="/EHF010100M0.do?reqCode=init" />
+			<forward name="redirectDELETE" 	path="/EHF010100M0.do?reqCode=delForm" />
+		</action>
+		<action attribute="EHF010100M0F" name="EHF010100M0F" parameter="reqCode" path="/EHF010100M4" scope="request"
+			type="com.spon.ems.hr.actions.EHF010100M4A" validate="false">
+			<forward name="success" 		path="/ems/ehf01/EHF010100M4.jsp" />
+			<forward name="redirect" 		path="/EHF010100M0.do?reqCode=init" />
+		</action>
+		
+		<action attribute="EHF010100M0F" name="EHF010100M0F" parameter="reqCode" path="/EHF010100M5" scope="request"
+			type="com.spon.ems.hr.actions.EHF010100M5A" validate="false">
+			<forward name="success" 		path="/ems/ehf01/EHF010100M5.jsp" />
+			<forward name="redirect" 		path="/EHF010100M0.do?reqCode=init" />
+		</action>
+		
+		<action attribute="EHF010100M0F" name="EHF010100M0F" parameter="reqCode" path="/EHF010100M2" scope="request"
+			type="com.spon.ems.hr.actions.EHF010100M2A" validate="false">
+			<forward name="success" 		path="/ems/ehf01/EHF010100M2.jsp" />
+		</action>
+		
+		<action attribute="EHF010101M0F" name="EHF010101M0F" parameter="reqCode" path="/EHF010101M0" scope="request"
+			type="com.spon.ems.hr.actions.EHF010101M0A" validate="false">
+			<forward name="success" path="/ems/ehf01/EHF010101M0.jsp" />
+			<forward name="redirect" path="/EHF010101M0.do?reqCode=init" />
+		</action>
+	
+		<action attribute="EHF010106M0F" name="EHF010106M0F" parameter="reqCode" path="/EHF010106M0" scope="request"
+			type="com.spon.ems.hr.actions.EHF010106M0A" validate="false">
+			<forward name="success" path="/ems/ehf01/EHF010106M0.jsp" />
+			<forward name="redirectADD" path="/EHF010106M1.do?reqCode=init" />
+			<forward name="redirectEDIT" path="/EHF010106M1.do?reqCode=queryForm" />
+		</action>
+		<action attribute="EHF010106M0F" name="EHF010106M0F" parameter="reqCode" path="/EHF010106M1" scope="request"
+			type="com.spon.ems.hr.actions.EHF010106M1A" validate="false">
+			<forward name="success" path="/ems/ehf01/EHF010106M1.jsp" />
+			<forward name="redirect" path="/EHF010106M0.do?reqCode=init" />
+			<forward name="redirectDELETE" 	path="/EHF010106M0.do?reqCode=delForm" />
+		</action>
+		
+		<action attribute="EHF010107M0F" name="EHF010107M0F" parameter="reqCode" path="/EHF010107M0" scope="request"
+			type="com.spon.ems.hr.actions.EHF010107M0A" validate="false">
+			<forward name="success" path="/ems/ehf01/EHF010107M0.jsp" />
+		</action>
+		
+		<action attribute="EHF010108M0F" name="EHF010108M0F" parameter="reqCode" path="/EHF010108M0" scope="request"
+			type="com.spon.ems.hr.actions.EHF010108M0A" validate="false">
+			<forward name="success" path="/ems/ehf01/EHF010108M0.jsp" />
+			<forward name="redirectADD" path="/EHF010108M1.do?reqCode=init" />
+			<forward name="redirectEDIT" path="/EHF010108M1.do?reqCode=queryForm" />
+		</action>
+		<action attribute="EHF010108M0F" name="EHF010108M0F" parameter="reqCode" path="/EHF010108M1" scope="request"
+			type="com.spon.ems.hr.actions.EHF010108M1A" validate="false">
+			<forward name="success" path="/ems/ehf01/EHF010108M1.jsp" />
+			<forward name="redirect" path="/EHF010108M0.do?reqCode=init" />
+			<forward name="redirectDELETE" 	path="/EHF010108M0.do?reqCode=delForm" />
+		</action>
+		
+		<action attribute="EHF010109M0F" name="EHF010109M0F" parameter="reqCode" path="/EHF010109M0" scope="request"
+			type="com.spon.ems.hr.actions.EHF010109M0A" validate="false">
+			<forward name="success" path="/ems/ehf01/EHF010109M0.jsp" />
+			<forward name="redirectADD" path="/EHF010109M1.do?reqCode=init" />
+			<forward name="redirectEDIT" path="/EHF010109M1.do?reqCode=queryForm" />
+		</action>
+		<action attribute="EHF010109M0F" name="EHF010109M0F" parameter="reqCode" path="/EHF010109M1" scope="request"
+			type="com.spon.ems.hr.actions.EHF010109M1A" validate="false">
+			<forward name="success" path="/ems/ehf01/EHF010109M1.jsp" />
+			<forward name="redirect" path="/EHF010109M0.do?reqCode=init" />
+			<forward name="redirectDELETE" 	path="/EHF010109M0.do?reqCode=delForm" />
+		</action>
+		
+		<action attribute="EHF010110M0F" name="EHF010110M0F" parameter="reqCode" path="/EHF010110M0" scope="request"
+			type="com.spon.ems.hr.actions.EHF010110M0A" validate="false">
+			<forward name="success" path="/ems/ehf01/EHF010110M0.jsp" />
+		</action>
+		
+		<action attribute="EHF010111M0F" name="EHF010111M0F" parameter="reqCode" path="/EHF010111M0" scope="request"
+			type="com.spon.ems.hr.actions.EHF010111M0A" validate="false">
+			<forward name="success" path="/ems/ehf01/EHF010111M0.jsp" />
+		</action>
+		
+		<action attribute="EHF010112M0F" name="EHF010112M0F" parameter="reqCode" path="/EHF010112M0" scope="request"
+			type="com.spon.ems.hr.actions.EHF010112M0A" validate="false">
+			<forward name="success" path="/ems/ehf01/EHF010112M0.jsp" />
+		</action>
+		
+		<action attribute="EHF010113M0F" name="EHF010113M0F" parameter="reqCode" path="/EHF010113M0" scope="request"
+			type="com.spon.ems.hr.actions.EHF010113M0A" validate="false">
+			<forward name="success" path="/ems/ehf01/EHF010113M0.jsp" />
+		</action>
+		
+		<action attribute="EHF010114M0F" name="EHF010114M0F" parameter="reqCode" path="/EHF010114M0" scope="request"
+			type="com.spon.ems.hr.actions.EHF010114M0A" validate="false">
+			<forward name="success" path="/ems/ehf01/EHF010114M0.jsp" />
+		</action>
+		
+		<action attribute="EHF010301M0F" name="EHF010301M0F" parameter="reqCode" path="/EHF010301M0" scope="request"
+			type="com.spon.ems.hr.actions.EHF010301M0A" validate="false">
+			<forward name="success" path="/ems/ehf01/EHF010301M0.jsp" />
+		</action>
+		
+ 	</action-mappings>
+	
+</struts-config>

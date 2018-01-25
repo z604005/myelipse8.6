@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_3.dtd">
+<struts-config>
+	<form-beans>	
+		
+		<form-bean name="SFlow_SiteF" type="com.spon.flow.forms.SFlow_SiteF" />
+		
+	</form-beans>
+	
+	<action-mappings>
+		
+		<action attribute="SFlow_SiteF" name="SFlow_SiteF" parameter="reqCode" path="/SFlow_SiteM0" scope="request"
+			type="com.spon.flow.actions.SFLOW_SITEM0A" validate="false">
+			<forward name="success" path="/flow/SFlow_SiteM0.jsp" />
+			<forward name="redirectADD" path="/SFlow_SiteM1.do?reqCode=init" />
+			<forward name="redirectEDIT" path="/SFlow_SiteM1.do?reqCode=queryForm" />
+		</action>
+		<action attribute="SFlow_SiteF" name="SFlow_SiteF" parameter="reqCode" path="/SFlow_SiteM1" scope="request"
+			type="com.spon.flow.actions.SFLOW_SITEM1A" validate="false">
+			<forward name="success" path="/flow/SFlow_SiteM1.jsp" />
+			<forward name="redirect" path="/SFlow_SiteM0.do?reqCode=init" />
+			<forward name="redirectDELETE" 	path="/SFlow_SiteM0.do?reqCode=delForm" />
+		</action>
+		
+ 	</action-mappings>
+	
+</struts-config>

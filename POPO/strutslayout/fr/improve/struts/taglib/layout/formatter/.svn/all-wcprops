@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/formatter
+END
+DateFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/formatter/DateFormatter.java
+END
+DispatchFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/formatter/DispatchFormatter.java
+END
+AbstractFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/formatter/AbstractFormatter.java
+END
+FormatException.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/formatter/FormatException.java
+END

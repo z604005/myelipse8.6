@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quartz>
+ 
+ <!-- 人員資料同步設定 -->
+<!--  <job>-->
+<!--　　 <job-detail>-->
+<!--  　　	<name>empdata_sync_system</name>-->
+<!--  　　	<group>DEFAULT</group>-->
+<!--  　　	<description>empdata_sync_system</description>-->
+<!--  　　	<job-class>quartz.jobs.empdata_sync_system</job-class>-->
+<!--  　　	<job-data-map allows-transient-data="true">-->
+<!--   　　		<entry>-->
+<!--    　　		<key>name</key>-->
+<!--   　　 		<value>empdata_sync_system</value>-->
+<!--   　　		</entry>-->
+<!--   			<entry>-->
+<!--  				<key>comp_id_ems</key>-->
+<!--  				<value>001</value>-->
+<!--  			</entry>-->
+<!--  			<entry>-->
+<!--  				<key>comp_id_hongchia_stock</key>-->
+<!--  				<value>A99999</value>-->
+<!--  			</entry>-->
+<!--   		</job-data-map>-->
+<!-- 　　</job-detail>-->
+<!--　　 <trigger>-->
+<!--    	<cron>-->
+<!--        	<name>Cron01</name>-->
+<!--            <group>DEFAULT</group>-->
+<!--            <job-name>job01</job-name>-->
+<!--            <job-group>DEFALUT</job-group>-->
+<!--             <job-data-map>-->
+<!--             	<entry>-->
+<!--             		<key>KEY</key>-->
+<!--	                <value>從EMS薪資系統取得人員資料</value>-->
+<!--	            </entry>-->
+<!--            </job-data-map>-->
+<!--            <cron-expression>0 0 6 * * ?</cron-expression>-->
+<!--             每天 6點00分 執行一次 -->
+<!--     	</cron>-->
+<!--     </trigger>-->
+<!--　 </job>-->
+
+<!-- 考勤資料產生排程設定 -->
+<!--  <job>-->
+<!--　　 <job-detail>-->
+<!--  　　	<name>att_generate_system</name>-->
+<!--  　　	<group>DEFAULT</group>-->
+<!--  　　	<description>att_generate_system</description>-->
+<!--  　　	<job-class>quartz.jobs.att_generate_system</job-class>-->
+<!--  　　	<job-data-map allows-transient-data="true">-->
+<!--   　　		<entry>-->
+<!--    　　			<key>name</key>-->
+<!--   　　 			<value>att_generate_system</value>-->
+<!--   　　		</entry>-->
+<!--   			<entry>-->
+<!--  				<key>comp_id</key>-->
+<!--  				<value>COM54766380</value>-->
+<!--  			</entry>-->
+<!--  			<entry>-->
+<!--  				<key>user_id</key>-->
+<!--  				<value>spadmin</value>-->
+<!--  			</entry>-->
+<!--  			<entry>-->
+<!--  				<key>displacement_day</key>-->
+<!--  				<value>-1</value>-->
+<!--  			</entry>-->
+<!--   		</job-data-map>-->
+<!-- 　　</job-detail>-->
+<!--　　 <trigger>-->
+<!--    	<cron>-->
+<!--        	<name>Cron03</name>-->
+<!--            <group>DEFAULT</group>-->
+<!--            <job-name>job03</job-name>-->
+<!--            <job-group>DEFALUT</job-group>-->
+<!--             <job-data-map>-->
+<!--             	<entry>-->
+<!--             		<key>KEY</key>-->
+<!--	                <value>考勤產生系統</value>-->
+<!--	            </entry>-->
+<!--            </job-data-map>-->
+<!--            <cron-expression>0 45 09 * * ?</cron-expression>-->
+<!--             每天 9點45分 執行一次 -->
+<!--     	</cron>-->
+<!--     </trigger>-->
+<!--　 </job>-->
+
+
+
+
+
+<!--<job>-->
+<!--　　 <job-detail>-->
+<!--  　　	<name>door_system</name>-->
+<!--  　　	<group>DEFAULT</group>-->
+<!--  　　	<description>door_system</description>-->
+<!--  　　	<job-class>quartz.jobs.door_system</job-class>-->
+<!--  　　	<job-data-map allows-transient-data="true">-->
+<!--   　　		<entry>-->
+<!--    　　			<key>name</key>-->
+<!--   　　 			<value>door_system</value>-->
+<!--   　　		</entry>-->
+<!--   			<entry>-->
+<!--  				<key>comp_id</key>-->
+<!--  				<value>COM54766380</value>-->
+<!--  			</entry>-->
+<!--   		</job-data-map>-->
+<!-- 　　</job-detail>-->
+<!--　　 <trigger>-->
+<!--    	<cron>-->
+<!--        	<name>Cron01</name>-->
+<!--            <group>DEFAULT</group>-->
+<!--            <job-name>job01</job-name>-->
+<!--            <job-group>DEFALUT</job-group>-->
+<!--             <job-data-map>-->
+<!--             	<entry>-->
+<!--             		<key>KEY</key>-->
+<!--	                <value>門禁系統</value>-->
+<!--	            </entry>-->
+<!--            </job-data-map>-->
+<!--            <cron-expression>0 0/30 0-23 * * ?</cron-expression>-->
+<!--             每天 半小時  執行一次 -->
+<!--     	</cron>-->
+<!--     </trigger>-->
+<!--　 </job>-->
+</quartz>
+
+<!--
+Cron 的小小說明 表示方式 意義  
+"0 0 12 * * ?"  Fire at 12pm (noon) every day  
+"0 15 10 ? * *"  Fire at 10:15am every day  
+"0 15 10 * * ?"  Fire at 10:15am every day  
+"0 15 10 * * ? *"  Fire at 10:15am every day  
+"0 15 10 * * ? 2005"  Fire at 10:15am every day during the year 2005  
+"0 * 14 * * ?"  Fire every minute starting at 2pm and ending at 2:59pm, every day  
+"0 0/5 14 * * ?"  Fire every 5 minutes starting at 2pm and ending at 2:55pm, every day  
+"0 0/5 14,18 * * ?"  Fire every 5 minutes starting at 2pm and ending at 2:55pm, AND fire every 5 minutes starting at 6pm and ending at 6:55pm, every day  
+"0 0-5 14 * * ?"  Fire every minute starting at 2pm and ending at 2:05pm, every day  
+"0 10,44 14 ? 3 WED"  Fire at 2:10pm and at 2:44pm every Wednesday in the month of March. 
+"0 15 10 ? * MON-FRI"  Fire at 10:15am every Monday, Tuesday, Wednesday, Thursday and Friday  
+"0 15 10 15 * ?"  Fire at 10:15am on the 15th day of every month  
+"0 15 10 L * ?"  Fire at 10:15am on the last day of every month  
+"0 15 10 ? * 6L"  Fire at 10:15am on the last Friday of every month  
+"0 15 10 ? * 6L"  Fire at 10:15am on the last Friday of every month  
+"0 15 10 ? * 6L 2002-2005" Fire at 10:15am on every last friday of every month during the years 2002, 2003, 2004 and 2005  
+"0 15 10 ? * 6#3"  Fire at 10:15am on the third Friday of every month  
+
+  -->
+

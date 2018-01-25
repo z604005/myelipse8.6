@@ -1,0 +1,61 @@
+/* 
+* Global
+*/
+* { margin: 0; padding: 0;}
+html{ background: #fff; font: normal 13px Arial;}
+p{ line-height: 25px;}
+ul, ol{ list-style: none;}
+a{ text-decoration: none; color: #000;}
+.clear{ clear: both;}
+
+
+.wrapper{ margin: 0; padding: 0;}
+.container{ margin: 0px auto; width: 940px;}
+
+.header, .nav{ margin: 0px auto; width: 100%;}
+
+/* 
+* Start Main 
+*/
+.wrapper{
+/*	background: url('images/bg.jpg') repeat 0 0;*/
+}
+
+
+/*
+* Header
+*/
+.header{
+	height: 80px;
+	/*background: url('banner_new_icon.jpg') repeat-x 0 0;*/
+	background-image: url(../config/logo_header.png), url(../config/header.jpg);
+	background-repeat: no-repeat;
+    background-size: auto 100%, cover;
+	background-position: 3% center, center;
+}
+
+/*.logo{ background: url('images/logo.png') no-repeat 0 0; width: 448px; height: 45px; position: absolute; top: 42px; text-indent: -99999px; display: block;}*/
+
+/*
+* Navigation
+*/
+.nav-container{ background: url('bar.jpg') repeat-x 0 0; vertical-align: middle}
+	.f-nav{ z-index: 9999; position: fixed; top: 0; width: 100%;} /* this make our menu float top */
+	
+	.nav { height: 42px;}
+	.nav ul { list-style: none; }
+	.nav ul li{float: left; margin-top: 0px; padding: 5px 10px; border-right: 0px solid #ACACAC; font-weight: bolder;}
+	.nav ul li:first-child{ padding-left: 26px;}
+	.nav ul li a { }
+	.nav ul li a:hover{ text-decoration: underline;}
+
+/*
+* Content
+*/
+.main-content{ min-height: 1120px;}
+.watch-me{ float: right; margin-top: 20px; background: url('images/watch-me.png') no-repeat 0 0; width: 424px; height: 327px; display: block;}
+.look-at-me { margin: 160px auto 0px auto; background: url('images/look-at-me.png') no-repeat 0 0; width: 219px; height: 377px; display: block;}
+.the-end { margin: 180px auto 0px auto; background: url('images/the-end.png') no-repeat 0 0; width: 150px; height: 42px; display: block;}
+
+.scroll-down{ background: url('images/scroll-down.png') no-repeat 0 0; width: 208px; height: 49px; position: fixed; left: 50px; bottom: 20px; display: block;}
+.back{ background: url('images/back.png') no-repeat 0 0; width: 293px; height: 73px; position: fixed; bottom: 20px; right: 50px; display: block;}

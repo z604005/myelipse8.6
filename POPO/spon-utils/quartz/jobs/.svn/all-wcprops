@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/popo/!svn/ver/1/spon-utils/quartz/jobs
+END
+att_generate_system.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/popo/!svn/ver/1/spon-utils/quartz/jobs/att_generate_system.java
+END
+door_system.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/popo/!svn/ver/1/spon-utils/quartz/jobs/door_system.java
+END
+empdata_sync_system.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/popo/!svn/ver/1/spon-utils/quartz/jobs/empdata_sync_system.java
+END

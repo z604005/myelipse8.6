@@ -1,0 +1,69 @@
+﻿<html>
+<head>
+<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+   Remove this if you use the .htaccess -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="initial-scale=1.0, target-densitydpi=device-dpi" /><!-- this is for mobile (Android) Chrome -->
+<meta name="viewport" content="initial-scale=1.0, width=device-height"><!--  mobile Safari, FireFox, Opera Mobile  -->
+
+<script language="JavaScript" type="text/javascript" src="../config/jquery-1.4.4.js"></script>
+<script language="JavaScript" type="text/javascript" src="../config/jSignature.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	// Prevent default for touch devices
+	// document.ontouchmove = function(e){ e.preventDefault(); }
+	
+	$("#signature").jSignature({
+		width:800,							//畫布寬							
+		height:300,							//畫布高
+		color:"#000",						//簽名筆劃顏色
+		lineWidth:2,						//簽名線寬
+//		'UndoButton':true,					//復原筆劃
+//		'background-color': 'transparent',	//隱藏簽名框底線1 
+//		'decor-color': 'transparent'		//隱藏簽名框底線2
+	});
+});
+
+function importImg(sig)
+{
+	//sig.children("img.imported").remove();
+	//$("<img class='imported'></img").attr("src",sig.jSignature('getData')).appendTo(sig);
+	
+	$("#img_signature").attr("src",sig.jSignature('getData'));
+}
+
+function importData(sig)
+{
+	var dataurl=window.prompt("Paste the exported Image data string here to put it back on this canvas","");
+	sig.jSignature('importData',dataurl);
+}
+</script>
+
+<style type="text/css">
+	canvas { border: 5px dotted #92e }
+	.imported { border:1px dotted #f00; margin-left: 40px; }
+	#signature { width: 800px }
+</style>
+</head>
+<body>
+<h2>Jsignature Example</h2>
+<pre>
+$("#signature").jSignature({
+	width:800,				//畫布寬				
+	height:300,				//畫布高
+	color:"#000",				//簽名筆劃顏色
+	lineWidth:2,				//簽名線寬
+});
+</pre>
+<button type="button" onclick="$('#signature').jSignature('clear')">Clear</button>
+<button type="button" onclick="$('#textarea_signature').val($('#signature').jSignature('getData'));">Export</button>
+<button type="button" onclick="importImg($('#signature'))">Import Data to Image</button>
+<button type="button" onclick="importData($('#signature'))">Import Data to Canvas</button>
+<div id="signature" ontouchmove="event.preventDefault();"></div>
+<textarea id="textarea_signature" style="width: 800"></textarea>
+<pre>
+$("#img_signature").attr("src",sig.jSignature('getData'));
+</pre>
+<img id="img_signature"/>
+</body>
+</html>

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/popo/!svn/ver/2/WebRoot/WEB-INF
+END
+spon.tld
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/popo/!svn/ver/1/WebRoot/WEB-INF/spon.tld
+END
+struts-layout.tld
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/popo/!svn/ver/1/WebRoot/WEB-INF/struts-layout.tld
+END
+struts-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/popo/!svn/ver/1/WebRoot/WEB-INF/struts-config.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/popo/!svn/ver/2/WebRoot/WEB-INF/web.xml
+END

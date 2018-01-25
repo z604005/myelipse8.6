@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/collection
+END
+BaseCollectionTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/collection/BaseCollectionTag.java
+END
+ItemContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/collection/ItemContext.java
+END
+CollectionGroupTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/collection/CollectionGroupTag.java
+END
+FastCollectionItemTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/collection/FastCollectionItemTag.java
+END
+CollectionItemTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/collection/CollectionItemTag.java
+END
+CollectionInputTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/collection/CollectionInputTag.java
+END
+CollectionTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/collection/CollectionTag.java
+END
+CollectionStyleTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/collection/CollectionStyleTag.java
+END
+CollectionsIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/collection/CollectionsIterator.java
+END
+NewsTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/collection/NewsTag.java
+END
+CollectionDetailTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/collection/CollectionDetailTag.java
+END
+NestedCollectionTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/collection/NestedCollectionTag.java
+END
+NestedTreeCollectionTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/collection/NestedTreeCollectionTag.java
+END
+SimpleItemContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/collection/SimpleItemContext.java
+END

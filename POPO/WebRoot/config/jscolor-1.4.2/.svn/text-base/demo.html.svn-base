@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title>jscolor demo</title>
+</head>
+<script type="text/javascript" src="jscolor.js"></script>
+<body>
+	第一階文字顏色: <input class="color" name="tree_layer_font_color1">&nbsp;&nbsp;&nbsp;第一階背景顏色: <input class="color" name="tree_layer_background_color1" id="tree_layer_background_color1"><br>
+	第二階文字顏色: <input class="color" name="tree_layer_font_color2">&nbsp;&nbsp;&nbsp;第二階背景顏色: <input class="color"  name="tree_layer_background_color2" id="tree_layer_background_color2"><br>
+	第三階文字顏色: <input class="color" name="tree_layer_font_color3">&nbsp;&nbsp;&nbsp;第三階背景顏色: <input class="color"  name="tree_layer_background_color3" id="tree_layer_background_color3"><br>
+	第四階文字顏色: <input class="color" name="tree_layer_font_color4">&nbsp;&nbsp;&nbsp;第四階背景顏色: <input class="color"  name="tree_layer_background_color4" id="tree_layer_background_color4"><br>
+	第五階文字顏色: <input class="color" name="tree_layer_font_color5">&nbsp;&nbsp;&nbsp;第五階背景顏色: <input class="color"  name="tree_layer_background_color5" id="tree_layer_background_color5"><br>
+	第六階文字顏色: <input class="color" name="tree_layer_font_color6">&nbsp;&nbsp;&nbsp;第六階背景顏色: <input class="color"  name="tree_layer_background_color6" id="tree_layer_background_color6"><br>
+	第七階文字顏色: <input class="color" name="tree_layer_font_color7">&nbsp;&nbsp;&nbsp;第七階背景顏色: <input class="color"  name="tree_layer_background_color7" id="tree_layer_background_color7"><br>
+	第八階文字顏色: <input class="color" name="tree_layer_font_color8">&nbsp;&nbsp;&nbsp;第八階背景顏色: <input class="color"  name="tree_layer_background_color8" id="tree_layer_background_color8"><br>
+	第九階文字顏色: <input class="color" name="tree_layer_font_color9">&nbsp;&nbsp;&nbsp;第九階背景顏色: <input class="color"  name="tree_layer_background_color9" id="tree_layer_background_color9"><br>
+	第十階文字顏色: <input class="color" name="tree_layer_font_color10">&nbsp;&nbsp;&nbsp;第十階背景顏色: <input class="color"  name="tree_layer_background_color10" id="tree_layer_background_color10"><br>
+</body>
+</html>

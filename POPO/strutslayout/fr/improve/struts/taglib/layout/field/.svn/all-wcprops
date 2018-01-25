@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field
+END
+AbstractSelectTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field/AbstractSelectTag.java
+END
+AbstractDateFieldTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field/AbstractDateFieldTag.java
+END
+AbstractLayoutFieldTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field/AbstractLayoutFieldTag.java
+END
+PasswordFieldTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field/PasswordFieldTag.java
+END
+DetailFieldTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field/DetailFieldTag.java
+END
+OptionsCollectionTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field/OptionsCollectionTag.java
+END
+AbstractFieldTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field/AbstractFieldTag.java
+END
+AmountFieldTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field/AmountFieldTag.java
+END
+OptionTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field/OptionTag.java
+END
+AbstractModeFieldTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field/AbstractModeFieldTag.java
+END
+AreaFieldTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field/AreaFieldTag.java
+END
+CheckboxesTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field/CheckboxesTag.java
+END
+SelectTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field/SelectTag.java
+END
+AbstractMultipleSelectTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field/AbstractMultipleSelectTag.java
+END
+FileTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field/FileTag.java
+END
+DateFieldTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field/DateFieldTag.java
+END
+RadiosTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field/RadiosTag.java
+END
+TextareaFieldTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field/TextareaFieldTag.java
+END
+OptionsDependentTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field/OptionsDependentTag.java
+END
+SuggestFieldTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field/SuggestFieldTag.java
+END
+CheckboxTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field/CheckboxTag.java
+END
+LineTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field/LineTag.java
+END
+TextFieldTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field/TextFieldTag.java
+END
+ChoiceTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field/ChoiceTag.java
+END
+AbstractUniqueSelectTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field/AbstractUniqueSelectTag.java
+END
+OptionsTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field/OptionsTag.java
+END
+NumberFieldTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field/NumberFieldTag.java
+END
+Choice.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field/Choice.java
+END
+RadioTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/field/RadioTag.java
+END

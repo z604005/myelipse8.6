@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/renderer
+END
+BasicCrumbRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/renderer/BasicCrumbRenderer.java
+END
+FixedHeaderCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/renderer/FixedHeaderCollection.java
+END
+SingleTableCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/renderer/SingleTableCollection.java
+END
+BasicPagerRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/renderer/BasicPagerRenderer.java
+END
+BasicWizardRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/renderer/BasicWizardRenderer.java
+END
+BasicImageRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/renderer/BasicImageRenderer.java
+END
+BasicToolbarRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/renderer/BasicToolbarRenderer.java
+END
+BasicPopupRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/renderer/BasicPopupRenderer.java
+END
+TreeGridRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/renderer/TreeGridRenderer.java
+END
+BasicMenuRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/renderer/BasicMenuRenderer.java
+END
+BasicGridRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/popo/!svn/ver/1/strutslayout/fr/improve/struts/taglib/layout/renderer/BasicGridRenderer.java
+END
